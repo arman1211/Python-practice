@@ -12,10 +12,7 @@ for ch in word:
         L_count+=1
     elif ch == 'R':
         R_count+=1
-    # if(L_count>0 and R_count>0 and L_count!= R_count and ch == 'L'):
-    #     L_count=0
-    #     R_count=0
-    #     continue
+    
     if L_count == R_count :
         ans+=1
         ans_list.add(st)
